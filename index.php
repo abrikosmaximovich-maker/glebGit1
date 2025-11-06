@@ -38,6 +38,6 @@ function subtract(){
         return;
     }
     $result = $num1 - $num2;
-    echo "Результат вычитания: {$num1} + {$num2} = {$result}\n";
+    echo "Результат вычитания: {$num1} - {$num2} = {$result}\n";
 }
 ?>
