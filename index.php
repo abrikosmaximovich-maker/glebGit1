@@ -10,6 +10,7 @@ switch ($choice) {
         inputNumbers();
         break;
     case '2':
+        addition();
         break;
     case '3':
         break;
@@ -39,5 +40,12 @@ function divide(){
     }
     $result = $num1 / $num2;
     echo "Результат деления: {$num1} / {$num2} = {$result}\n";
+function addition(){
+    if ($num1 == null && $num2 == null) {
+        echo "Сначала введите числа (пункт 1)\n";
+        return;
+    }
+    $result = $num1 + $num2;
+    echo "Результат сложения: {$num1} + {$num2} = {$result}\n";
 }
 ?>
