@@ -14,6 +14,7 @@ switch ($choice) {
     case '3':
         break;
     case '4':
+        divide();
         break;
     case '5':
         break;
@@ -29,5 +30,14 @@ function displayMenu() {
     echo "4. Выполнить деление\n";
     echo "5. Возвести число в степень\n";
     echo "Выберите пункт меню: ";
-}   
+}
+
+function divide(){
+    if ($num1 == null && $num2 == null && $num !=2) {
+        echo "Введите правильные числа (пункт 1)\n";
+        return;
+    }
+    $result = $num1 / $num2;
+    echo "Результат деления: {$num1} / {$num2} = {$result}\n";
+}
 ?>
