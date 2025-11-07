@@ -1,5 +1,6 @@
 <?php
-echo "Дубовик Глеб 9ПО-32"
+echo "Дубовик Глеб 9ПО-32";
+echo "Здесь был Гончаров Максим";
 displayMenu();
 $num1;
 $num2;
@@ -77,4 +78,5 @@ function subtract(){
     $result = $num1 - $num2;
     echo "Результат вычитания: {$num1} - {$num2} = {$result}\n";
 }
+
 ?>
